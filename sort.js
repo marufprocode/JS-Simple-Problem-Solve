@@ -22,6 +22,9 @@ console.log(find2ndlrg); */
 // ============================================
 //Array find 2nd largest
 
+// --------------------------------
+//This method is not accurate beacuse you cannot get second largest if the first nummer of array is largest
+
 const arrNum = [24, 58, 22, 89, 88, 90];
 
 function find2ndLargestNum(array){

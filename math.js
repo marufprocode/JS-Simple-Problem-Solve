@@ -22,8 +22,8 @@ else{
 const number  = 2.5198;
 const integerNumber = parseInt(number);
 const integerNumberMath = Math.round(number); 
-console.log(integerNumber);
-console.log(integerNumberMath);
+// console.log(integerNumber);
+// console.log(integerNumberMath);
 
 
 //MathCeil and Math.floor
@@ -50,17 +50,17 @@ for(let i = 0; i < 20; i++){
 // ============================
 // Math.max.apply();
 
-/* const numbers = [167, 190, 120, 400, 300, 265];
+const numbers = [167, 190, 120, 400, 300, 265];
 
 const maxNumber = Math.max.apply(null, numbers);
 console.log(maxNumber);
 
 const minNumber = Math.min.apply(null, numbers);
-console.log(minNumber); */
+console.log(minNumber);
 
 var myArray =['20','120','111','215','54','78'];
 var secondLargest = myArray.sort(function(a,b){return a - b})[myArray.length-2];
-console.log(secondLargest);
+// console.log(secondLargest);
 
 
 
